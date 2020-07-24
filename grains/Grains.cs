@@ -13,5 +13,5 @@ public static class Grains
     }
 
     public static ulong Total() =>
-        (ulong) Math.Pow(2,65) - 1;
+        (ulong) Math.Pow(2,64) - 1;
 }
